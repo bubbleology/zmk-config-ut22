@@ -1,0 +1,14 @@
+manifest:
+  remotes:
+    # zmk official
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: Nicell
+      url-base: https://github.com/Nicell
+  projects:
+    - name: zmk
+      remote: Nicell
+      revision: nice-view-custom-screen
+      import: app/west.yml
+  self:
+    path: config
